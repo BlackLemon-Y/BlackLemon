@@ -1,0 +1,82 @@
+/* General */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; 
+  color: #ffffff;
+}
+
+/* Header */
+header {
+  background-color: #1a1a1a;
+}
+
+/* Logo image */
+img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://png.pngtree.com/background/20250108/original/pngtree-a-cut-lemon-on-black-background-picture-image_15535505.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+/* Nav Links */
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav a:hover {
+  color: #F4D03F;
+  transition: color 0.3s ease;
+}
+
+/* Section Titles */
+h2 {
+  color: #fffefa; 
+}
+
+/* Card Styles */
+.card {
+  background-color: #2a2a2a;
+  border: 2px solid #9B59B6; 
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Buttons */
+.btn-warning {
+  background-color: #F4D03F;
+  border: none;
+  color: #121212;
+}
+
+.btn-warning:hover {
+  background-color: #9B59B6;
+  color: #ffffff;
+}
+
+/* Search Input */
+form input[type="search"] {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 1px solid #F4D03F;
+}
+
+form input[type="search"]::placeholder {
+  color: #ccc;
+}
+
+form .btn-outline-warning:hover {
+  background-color: #9B59B6;
+  border-color: #9B59B6;
+  color: #fff;
+}
